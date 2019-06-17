@@ -6,6 +6,17 @@ Vole
 -------
 Vole 是一个基于最新的SpringCloud2.0的微服务商业开发脚手架->(非教学版),支持公司全方位应用架构搭建
 
+##模块介绍
+* 基础核心工具包 common
+* 微服务服务中心 eureka
+* 微服务配置中心 config
+* 微服务鉴权中心 auth
+* 微服务登陆统一中心 passport
+* 微服务后台统一管理中心 portal
+* 微服务边缘网关管理中心 gateway
+* 微服务其他相关模块（监控，消息，job）
+
+
 ## Features
 * 基于Eureka的服务管理
 * 基于Spring-Cloud-Config的配置管理

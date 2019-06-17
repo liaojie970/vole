@@ -214,6 +214,7 @@ public abstract class HttpContactAble {
 	}
 	private class HttpDelete extends HttpEntityEnclosingRequestBase {
 		public static final String METHOD_NAME = "DELETE";
+		@Override
 		public String getMethod() {
 			return METHOD_NAME;
 		}
