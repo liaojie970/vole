@@ -36,8 +36,8 @@ CREATE TABLE `JOB_STATUS_TRACE_LOG` (
   `state` varchar(20) NOT NULL,
   `message` varchar(4000) DEFAULT NULL,
   `creation_time` timestamp NULL DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  KEY `TASK_ID_STATE_INDEX` (`task_id`,`state`)
+  PRIMARY KEY (`id`)
+  /*,KEY `TASK_ID_STATE_INDEX` (`task_id`,`state`)*/
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- ----------------------------
