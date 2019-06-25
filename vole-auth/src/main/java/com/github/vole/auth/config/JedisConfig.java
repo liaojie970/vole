@@ -11,6 +11,8 @@ public class JedisConfig {
 
     @Value("${spring.redis.host}")
     public String host;
+    @Value("${spring.redis.password}")
+    public String password;
     @Value("${spring.redis.port}")
     public int port;
     @Value("${spring.redis.database}")
